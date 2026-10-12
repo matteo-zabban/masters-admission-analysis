@@ -49,14 +49,6 @@ masters-admission-analysis/
 - [`report/Russo_Zabban.pdf`](report/Russo_Zabban.pdf): full academic report, figures, diagnostics, and bibliography.
 - [`data/README.md`](data/README.md): dataset setup instructions.
 
-## How to run
-
-1. Install [R](https://www.r-project.org/) and optionally [RStudio](https://posit.co/products/open-source/rstudio/).
-2. Obtain the **Graduate Admission 2** dataset (the 500-row version) and place the CSV at the project root with the filename `Admission_Predict_Ver1.1.csv`.
-3. Open `src/University_Admission.R` in RStudio and run the script.
-
-The original script installs and loads the `tidyverse` and `caret` packages. Installation requires an internet connection. It also uses `View(data)`, which is most convenient in an interactive R/RStudio session. **The CSV is not included** in this repository; follow the dataset provider's terms when downloading or redistributing it.
-
 ## Limitations
 
 - The dataset is a teaching/research dataset inspired by graduate admissions and does not establish causal relationships.
